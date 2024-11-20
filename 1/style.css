@@ -15,3 +15,24 @@ body {
     gap: 1rem;
     text-align: center;
 }
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1.162rem;
+    color: rgba(0,0,0, 0.7);
+    font-weight: 200;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 1rem;
+    border: none;
+    background-color: #252525;
+    color: #ffff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(37, 37, 37, 0.6);
+    transition: all 3ms;
+}
