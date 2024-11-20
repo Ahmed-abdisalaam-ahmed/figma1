@@ -6,6 +6,11 @@
 body {
     background-color: #ffff;
 }
+.container{
+    width: min(80%, 70rem);
+    margin-left: 7.5rem;
+    margin: auto;
+}
 .content{
     display: flex;
     justify-content: center;
@@ -35,4 +40,15 @@ p{
 .btn:hover{
     background-color: rgba(37, 37, 37, 0.6);
     transition: all 3ms;
+}
+.bottom-side{
+    display: grid;
+    grid-template-columns: repeat(4,19.75rem);
+    gap: 1rem;
+}
+img{
+    width: 19.75rem;
+    height: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
